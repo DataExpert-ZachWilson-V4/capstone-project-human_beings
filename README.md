@@ -4,7 +4,8 @@
 
 #### 1. Problem Statement
 
-The objective of this project is to develop a system that uses weather data to trigger personalized food advertisements and restaurant suggestions for users. By leveraging the dataset from Zomato, we aim to enhance user experience by recommending food and restaurants that align with current weather conditions. This can help increase user engagement and satisfaction, and assist restaurants in managing demand more effectively.
+The objective of this project is to develop a system that uses weather data to trigger personalized food advertisements and restaurant suggestions for users. By leveraging the weather dataset from Zomato(See Doordash) - India's largest food delievery startup, we aim to enhance user experience by recommending food and restaurants that align with current weather conditions. This can help increase user engagement and satisfaction, and assist restaurants in managing demand more effectively.
+Our idea is human craving for food is vastly dependent on the day-to-day weather, we'll be using the weather data collected from 60 cities with 1 minute refresh rate and calculating what kind of food items we should suggest our users, we also can help restaurants maintain load by forecasting the demand of the food.
 
 #### 2. Project Scope
 
@@ -24,7 +25,7 @@ The objective of this project is to develop a system that uses weather data to t
   
 - **Weather Data**:
   - Format: API (JSON/XML)
-  - Source: Weather APIs (e.g., OpenWeatherMap, WeatherStack)
+  - Source: weather Union API(Zomato), some other second weather API(Yet to be decided)
   - Content: Real-time weather conditions, forecasts, historical weather data
 
 #### 4. Data Sources and Formats
@@ -65,19 +66,6 @@ The combined datasets will include at least 1 million rows, given the large volu
 - **Evaluation**:
   - **Tableau/Power BI**: For visualization and reporting.
 
-#### 7. Justification of Tools
-
-- **Python**: Widely used for data manipulation and API integration.
-- **Apache NiFi**: Efficient for automating data workflows.
-- **Pandas/Spark**: Ideal for handling large datasets and complex transformations.
-- **Airflow**: Provides a robust solution for scheduling and managing workflows.
-- **AWS S3**: Scalable and cost-effective storage solution.
-- **Snowflake/Redshift**: Powerful data warehousing solutions that support complex queries and analytics.
-- **SQL**: Standard language for querying relational databases.
-- **Jupyter Notebooks**: Excellent for interactive data analysis and visualization.
-- **Django/Flask**: Flexible frameworks for building web applications.
-- **JavaScript/React**: Popular for developing dynamic and responsive user interfaces.
-- **Tableau/Power BI**: Industry-standard tools for creating interactive dashboards and reports.
 
 #### 8. Detailed Eating Habits Table
 
